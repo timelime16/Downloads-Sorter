@@ -1,6 +1,6 @@
 # Downloads File Manager
 
-# Description
+## Description
 This project is a short Python script that helps manage your computer's Downloads folder. It is meant to be run as a background process and will sort any downloaded files into separate destination folders on the desktop. 
 To prevent accidental overriding of files, the program will append a number to the end of the file name if it already exists in the destination folders.
 
@@ -9,7 +9,7 @@ The template of the destination folders can be found in and created using `desti
 
 This program is easily customizable to fit how you want to sort the Downloaded files. All files that need to be edited are under the `custom` folder.
 
-# Getting it Started
+## Getting it Started
 <b>Pre-requisite:</b> Make sure you have the latest version of Python installed. (Click [here](https://www.python.org/downloads/) if you do not)
 
 1. Clone the repository onto your computer using `git clone <this_url>`
@@ -28,16 +28,16 @@ DIVIDER = <OS, either WINDOWS, LINUX or MACOS>
 
 As this program is meant to be running automatically in the background, a bash script for your computer should be written and included in your computer's tasks <b> TODO </b>
 
-# Testing
+## Testing
 <b> TODO </b>
 
-# Customization
+## Customization
 Under the `custom` folder, the program can be customized to your liking, in terms of the format of the destination folder and what file types each folder can store. <br> 
 `config.py` defines all the paths to the destination folders. <br>
 `extensions.py` defines the mapping of file type to destination. <br>
 Remember to edit both files after you have customized the format of the destination folders.
 
-# Additional Info
+## Additional Info
 <b> How to find Downloads and Desktop path </b>
 1. Navigate to the folder in your terminal
 2. Type in `pwd` in your terminal. The file path will be displayed in the terminal
