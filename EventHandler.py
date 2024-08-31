@@ -2,7 +2,6 @@ import shutil
 from pathlib import Path
 from time import sleep
 from watchdog.events import FileSystemEvent, FileSystemEventHandler
-from constants import DOWNLOAD_EXTENSIONS
 from extensions import extensions_folders
 from utils import is_downloading, add_date_to_path, rename_file
 
