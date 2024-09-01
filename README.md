@@ -26,10 +26,8 @@ DIVIDER = <OS, either WINDOWS, LINUX or MACOS>
 4. Create the destination folders on your desktop <br> using `python destinationfolder.py`. Use `python3` for MacOS or Linux users
 5. Run `sortdownloads.py`. All should be done!
 
-As this program is meant to be running automatically in the background, a bash script for your computer should be written and included in your computer's tasks <b> TODO </b>
+As this program is meant to be running automatically in the background, a bash script for your computer should be written and included in your computer's tasks
 
-## Testing
-<b> TODO </b>
 
 ## Customization
 Under the `custom` folder, the program can be customized to your liking, in terms of the format of the destination folder and what file types each folder can store. <br> 
